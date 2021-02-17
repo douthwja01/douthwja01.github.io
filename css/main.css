@@ -6,12 +6,19 @@ body, html {
   line-height: 1.8;
 }
 
-.bgimg-1 {
+.banner-photo {
   background-position: center;
   background-size: cover;
   /*background-image: url("/w3images/mac.jpg");*/
-  background-image: url("/images/photo-james-SR.jpg");
-  min-height: 100%;
+  background-image: url("../images/photo-james-SR.jpg");
+  min-height: 60%;
+  min-width: 100%;
+}
+
+.bg-portrait-photo {
+  background-position: center;
+  background-image: url("../images/photo-james-4x3.jpg");
+  object-fit: cover;
 }
 
 .w3-bar .w3-button {
