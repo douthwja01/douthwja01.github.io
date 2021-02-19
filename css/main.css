@@ -27,18 +27,33 @@ body, html {
   padding-right: 15px;
 }
 
+.button-blue{
+  color:azure;
+  background-color:rgb(30, 30, 97);
+}
+
+
 .w3-bar .w3-button {
-  padding: 16px;
+  padding: 12px;
+}
+.software-card {
+  padding: 8px;
+  background-color: white;
+  text-align: justify;
 }
 
 /* Style all font awesome icons */
 .fa {
-  padding: 10px 0;
+  padding: 10px;
   font-size: 20px;
-  width: 50px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
-  
+  padding-top: 10px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /* Add a hover effect if you want */
@@ -46,27 +61,29 @@ body, html {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
-  width: 65px;
-  height: 65px;
 }
-
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  width: 65px;
-  height: 65px;
 }
 /* LinkedIn */
 .fa-linkedin {
   background: #0d324e;
   color: white;
-  width: 65px;
-  height: 65px;
+}
+/* LinkedIn */
+.fa-github {
+  background: #161615;
+  color: white;
+}
+
+.square {
+  width: 100%;
+  height: 65;
+  padding-top: 100%;
 }
