@@ -46,30 +46,73 @@
   <!-- Header with full-height image -->
   <header class="banner-photo w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-left w3-text-white" style="padding:48px">
-      <span class="w3-jumbo w3-hide-small">Build something that matters</span><br>
-      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Build something that matters</span><br>
-      <span class="w3-large">Stop wasting valuable time with projects that just aren't you.</span>
+      <span class="w3-jumbo w3-hide-small">Roboticist, tinkerer, tech enthusiast.</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Roboticist, tinkerer, tech enthusiast.</span><br>
+      <span class="w3-xlarge">Build something that matters.</span>
       <p><a href="#about"
           class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more</a></p>
     </div>
     <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:20px 20px">
       <a href="https://www.facebook.com/james.douthwaite1"><i class="fa w3-hover-opacity fa-facebook"></i></a>
-      <a href=#><i class="fa fa-twitter w3-hover-opacity"></i></a>
       <a href="https://www.linkedin.com/in/jamesdouthwaite/"><i class="fa w3-hover-opacity fa-linkedin"></i></a>
       <a href="https://github.com/douthwja01/CSI-cobotics"><i class="fa w3-hover-opacity fa-github"></i></a>
-      <a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en"><i class="fa w3-hover-opacity fa-book-open"></i></a>
+      <!--
+      <a href=#><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en"><i class="fab w3-hover-opacity fa-book-open"></i></a>
+      -->
     </div>
   </header>
 
   <!-- News -->
-  <div class="w3-container w3-light" style="padding:128px 20px" id="news">
+  <div class="w3-container" style="padding:128px 20px" id="news">
     <div class="w3-container w3-center w3-padding-16">
       <h3 class="w3-row-padding">NEWS</h3>
-      <b>Recent events and articles</b>
-      <ol class="w3-padding-16 w3-card article-cards">
-        item 1
-      <ol class="w3-padding-16 w3-card article-cards">
-        item 2
+      <p class="w3-center w3-large">Recent events, news and project updates</p>
+      
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>New Role: PhD Thesis Mentor (Sheffield, UK, Feb 2022)</b>
+        <p>Enrolled as a voluntary mentor as part of the Thesis Mentoring Programme identified 
+          as an excellent opportunity to support Ph.D students within the school of mechanical 
+          engineering at the University Of Sheffield.</p>
+      </ol>      
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>New Post: Research Associate in Intelligent Sensing & Tracking for Collaborative Robot 
+          Tasks (Sheffield, UK, January 2020)</b>
+        <p>Entered the role of research associate tasked with the development with 
+          a digital twinning framework targeting real world industrial applications. 
+          The project, CSI:Cobot, is in partnership with the University of York, Sheffield Hallam,
+          the University of Manchester, the Advanced Manufacturing and Research Center (AMRC) and
+          several commercial partners.
+        </p>
+      </ol>  
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>Conference Presentation (Sheffield, UK, June 2018)</b>
+        <p>Attended the 12th Inernational Conference on Control (UKACC) to present 
+        our submission "A Comparative Study of Velocity Ostacle Approaches for 
+        Multi-agent systems". Nominated for best paper award, but better luck 
+        next time!</p>
+      </ol>    
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>Conference Presentation (Bonn, Germany, October 2017)</b>
+        <p>Attended the 11th Symposium on Sensor Data Fusion: Trends, Solutions & 
+        Applications (SDF). Presented our white paper "An Interval Approach to 
+        Multiple Unmanned Aerial Vehicle Collision Avoidance" to the sensor 
+        fusion community.</p>
+      </ol>
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>Workshop (Manchester, UK, June 2017)</b>
+        <p>Attended the 10th summer workshop on Interval Methods, and 3rd 
+        International Symposium on Set Membership Applications, Reliability and 
+        Theory (SWIM-SMART 2017). Presented out initial findings on our 
+        interval-based approach to localised UAV collision avoidance, recieved 
+        promising feedback ahead of SDF 2017.</p>
+      </ol>
+      <ol class="w3-padding-16 w3-card news-card">
+        <b>Conference Presentation (Sheffield, UK, July 2016)</b>
+        <p>Attended the 17th Annual Conference Towards Autonomous Robotics 
+        Systems (TAROS) in order to present our works "Enhancing Autonomy in VTOL 
+        Aircraft Based on Symbolic COmputation Alogrithms.". Presentation was 
+        recieved well, speculations for future uses of the approach were encouraging.</p>
       </ol>
     </div>
   </div>
@@ -78,11 +121,12 @@
   <div class="w3-container w3-light-grey" style="padding:128px 20px" id="software">
     <h3 class="w3-center">SOFTWARE</h3>
     <p class="w3-center w3-large">Links to associated projects and their resources..</p>
-    <div class="w3-row-padding" style="margin-top:24px;">
+    <span class="w3-row-padding software-container">
       <!--SymVMC-->
       <div class="w3-col l3 m6 w3-margin-bottom"> 
+
         <div class="w3-card software-card">
-          <img src="./images/symvmc-example.PNG" alt="symvmc" style="width:100%; height:80%">
+          <img src="./images/symvmc-example.PNG" alt="symvmc" class="image">
           <div class="w3-container">
             <h3 style="text-align:left;">SymVMC - Symbolic Vehicle Modelling & Control Toolbox</h3>
             <p>
@@ -102,7 +146,7 @@
       <!--OpenMAS-->
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card software-card">
-          <img src="./images/openmas-quadcopters.gif" alt="openmas-quadcopters" style="width:100%">
+          <img src="./images/openmas-quadcopters.gif" alt="openmas-quadcopters" class="image">
           <div class="w3-container">
             <h3 style="text-align:left;">OpenMAS - An Open source Multi-Agent Simulator for MATLAB</h3>
             <p>
@@ -132,7 +176,7 @@
         </div>
       </div>
       -->
-    </div>
+    </span>
   </div>
 
   <!-- Section
@@ -182,26 +226,29 @@
   -->
   
   <!-- Publications -->
-  <div class="w3-container w3-light-grey" style="padding:128px 20px" id="publications">
+  <div class="w3-container w3-light-grey" style="padding:60px 20px" id="publications">
     <div class="w3-container w3-center w3-padding-16">
       <h3 class="w3-row-padding">PUBLICATIONS</h3>
-      <p class="w3-center w3-large">A list of my academic publications to date.</p>
-      <ol class="w3-padding-16 w3-card article-cards">
+      <p class="w3-center w3-large">Journal Articles</p>
+      <ol class="w3-padding-16 w3-card article-card">
         [4] Douthwaite, J.A. and Zhao, S. & Mihaylova, L.S., 
         <a href="http://eprints.whiterose.ac.uk/141072/1/Manuscript.pdf">Velocity Obstacle Approaches for Multi-Agent Collision Avoidance</a>
         Unmanned Systems, 7(01), 2019, pp. 55-64, https://doi.org/10.1142/S2301385019400065.
       </ol>     
-      <ol class="w3-padding-16 w3-card article-cards">
+      
+      <p class="w3-center w3-large">Conference Papers</p>
+      
+      <ol class="w3-padding-16 w3-card article-card">
         [3] Douthwaite, J.A., Zhao, S. & Mihaylova, L.S., 
         <a href="http://eprints.whiterose.ac.uk/135915/1/UKACC18_0133_FI.pdf">A Comparative Study of Velocity Obstacle Approaches for Multi-Agent Systems</a>
         2018 UKACC 12th International Conference on Control (CONTROL), Sheffield, 2018, pp. 289-294, https://doi:10.1109/CONTROL.2018.8516848.
       </ol>
-      <ol class="w3-padding-16 w3-card article-cards">
+      <ol class="w3-padding-16 w3-card article-card">
         [2] Douthwaite, J.A., De Freitas, A. & Mihaylova, L.S., 
         <a href="http://eprints.whiterose.ac.uk/121512/1/SDF2017%20-%20An%20Interval%20Approach%20to%20Multiple%20UAV%20Collision%20Avoidance%20Final%20%26%20Certified.pdf">An interval approach to multiple unmanned aerial vehicle collision avoidance</a>
         2017 Sensor Data Fusion: Trends, Solutions, Applications (SDF), Bonn, 2017, pp. 1-8, https://doi:10.1109/SDF.2017.8126384.
       </ol>
-      <ol class="w3-padding-16 w3-card article-cards">
+      <ol class="w3-padding-16 w3-card article-card">
         [1] Douthwaite, J.A., Mihaylova, L.S., & Veres, S. M.,
         <a href="http://eprints.whiterose.ac.uk/99730/6/TAROS_16_submission.pdf">Enhancing Autonomy in VTOL Aircraft Based on Symbolic Computation Algorithms</a> 
         Towards Autonomous Robotic Systems (TAROS-16), Sheffield, 2016, 19th ed., pp. 99–110. Springer International Publishing. https://doi.org/10.1007/978-3-319-40379-3_10.
@@ -223,29 +270,24 @@
           <p>I'm a researcher in collaborative robotics at Sheffield Robotics at the University of Sheffield, Sheffield, UK.  
           <br>Athough being an early career researcher, I have numerous published works in the field of collaborative robotics, multi-agent systems and procedural modelling of unmanned aerial vehicles (UAVs). His interests include multi-agent systems, hybrid aerial systems, industry 4.0 technologies and automation.</p>
           
-          <h3>Background</h3>  
+          <div class="w3-center">
+            <div class="w3-half">
+              <p><a href="#publications" class="w3-button w3-black"><i class="fa fa-paper-plane"></i>View Publications</a></p>
+            </div>
+            <div class="w3-half">
+              <p><a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en" class="w3-button button-blue"><i class="fa fa-google"></i>Google Scholar</a></p>
+            </div>  
+          </div>
+          <h3 style="padding-left:30px">Background</h3>  
           <p>James recieved his Ph.D in collaborative robotics and multi-agent systems from the University of Sheffield in 2019. 
             He moved to Sheffield after graduating from the University of Liverpool, Liverpool, in 2015 where he recieved his MEng (Hons) in Aerospace Engineering.</p>
-          
-          
-          <div class="w3-half w3-center">
-            <p><a href="#publications" class="w3-button w3-black"><i class="fa fa-paper-plane"></i>View Publications</a></p>
-          </div>
-          <div class="w3-half w3-center">
-            <p><a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en" class="w3-button button-blue"><i class="fa fa-google"></i>Google Scholar</a></p>
-          </div>
         <!-- Portrait photo-->
         </div>
         <div class="w3-col m6 w3-center">
           <img class="w3-image w3-round-large" src="./images/photo-james-4x3.jpg" alt="Portrait" width="350" height="80">
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- Skills Section -->
-  <div class="w3-container w3-light-grey w3-padding-64">
-    <h3 class="w3-center">SKILLS</h3>
+    <!-- Interests -->
     <div class="w3-row-padding">
       <div class="w3-col m6">
         <p>
@@ -277,6 +319,26 @@
     </div>
   </div>
 
+  <!-- Dark grey cross-bar -->
+  <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">14+</span>
+      <br>data
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">55+</span>
+      <br>data
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">89+</span>
+      <br>data
+    </div>
+    <div class="w3-quarter">
+      <span class="w3-xxlarge">22</span>
+      <br>Student's Mentored
+    </div>
+  </div>
+
   <!-- Contact Section -->
   <div class="w3-container" style="padding:128px 20px" id="contact">  
     <div class="w3-container w3-center">
@@ -285,7 +347,7 @@
     </div>
       <div class="w3-row-padding">
         <div class="w3-col m6">
-          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: douthwaiteja@mail.com</p>
+          <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: douthwaiteja@gmail.com</p>
           <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Sheffield, UK</p>
           <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: Available on request.</p>
           </div>
