@@ -26,12 +26,31 @@ body, html {
   padding-right: 15px;
   background-color:rgb(255, 255, 255);
 }
-.news-card {
-  text-align: justify; 
-  padding-left: 20px;
-  padding-right: 15px;
-  background-color: rgb(221, 218, 218)
+
+.news {
+  display: table;
+  padding: 5px;
+  border-spacing: 15px;
 }
+
+.news-card {
+  display: table-row;
+  text-align: justify; 
+  vertical-align:middle;
+  padding: 15px;
+  /*background-color: rgb(221, 218, 218)*/
+}
+.news-cell-a{
+  display: table-cell;
+  text-align:center;
+  vertical-align:middle;
+  width:20%;
+}
+.news-cell-b{
+  display: table-cell;
+  border-top-width: 20px;
+}
+
 .button-blue{
   color:azure;
   background-color:rgb(30, 30, 97);
@@ -40,24 +59,10 @@ body, html {
   left:0; 
 }
 
-
 .w3-bar .w3-button {
   padding: 12px;
 }
 
-.box{
-  color: #fff;
-  background: #000;
-  position: relative;
-  height: 100%;
-  padding:10px;
-  padding-bottom: 30px; /* to avoid content overlapping */
-}
-.box .content{    
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 .image{
   display:block; 
   margin-left:auto; 
@@ -65,7 +70,6 @@ body, html {
   height:280px;
   width:100%;
 }
-
 
 .scroll-block {
   display:block;
