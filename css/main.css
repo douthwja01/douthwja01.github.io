@@ -67,7 +67,6 @@ body, html {
   display:block; 
   margin-left:auto; 
   margin-right:auto; 
-  height:280px;
   width:100%;
 }
 
@@ -81,18 +80,17 @@ body, html {
 
 .software-container {
     display:block;
-    margin-top:30px;
-    background-color:rgb(180, 185, 182);
-    /*height: fit-content;*/
+    margin-top:40px;
+    /*background-color:rgb(180, 185, 182);
+    height: fit-content;*/
     height: max-content;
-    padding: 10px;
+    padding: 20px;
   }
 
 .software-card {
-  padding: 15px;
   background-color: white;
-  /*height: 700px;*/
   vertical-align:text-bottom;
+  text-align:justify;
 }
 
 #container {
