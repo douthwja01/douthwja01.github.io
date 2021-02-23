@@ -95,6 +95,15 @@ body, html {
   vertical-align:text-bottom;
 }
 
+#container {
+  background: #EEE;
+  display:flex;
+  flex-direction: column;
+}
+#bottom {
+  margin-top: auto;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
