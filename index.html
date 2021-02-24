@@ -33,9 +33,7 @@
   <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
     style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <!--
-      <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-    -->
+    
     <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button">NEWS</a>
     <a href="#software" onclick="w3_close()" class="w3-bar-item w3-button">SOFTWARE</a>
     <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button">PUBLICATIONS</a>
@@ -57,10 +55,7 @@
       <a href="https://www.facebook.com/james.douthwaite1"><i class="fa w3-hover-opacity fa-facebook"></i></a>
       <a href="https://www.linkedin.com/in/jamesdouthwaite/"><i class="fa w3-hover-opacity fa-linkedin"></i></a>
       <a href="https://github.com/douthwja01/CSI-cobotics"><i class="fa w3-hover-opacity fa-github"></i></a>
-      <!--
-      <a href=#><i class="fa fa-twitter w3-hover-opacity"></i></a>
-      <a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en"><i class="fab w3-hover-opacity fa-book-open"></i></a>
-      -->
+      <a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en"><i class="fab w3-hover-opacity fa-scholar fa-book"></i></a>
     </div>
   </header>
 
@@ -229,43 +224,69 @@
   </div>
   
   <!-- Publications -->
-  <div class="w3-container" style="padding:80px 20px" id="publications">
-    <div class="w3-container w3-center">
-      <h3 class="w3-row-padding">PUBLICATIONS</h3>
-      <p class="w3-center w3-large">Journal Articles</p>
-      <ol class="w3-padding-16 w3-card article-card">
-        [4] Douthwaite, J.A. and Zhao, S. & Mihaylova, L.S.,
-        <a href="http://eprints.whiterose.ac.uk/141072/1/Manuscript.pdf">Velocity Obstacle Approaches for Multi-Agent
-          Collision Avoidance</a>
-        Unmanned Systems, 7(01), 2019, pp. 55-64, https://doi.org/10.1142/S2301385019400065.
-      </ol>
-      <p class="w3-center w3-large">Conference Papers</p>
+  <div class="w3-container" style="padding:80px 20px" id="news">
+    <h3 class="w3-center">PUBLICATIONS</h3>
+    <p class="w3-center w3-large">Journal Articles & Conference Papers</p>
+    <div class="articles">
 
-      <ol class="w3-padding-16 w3-card article-card">
-        [3] Douthwaite, J.A., Zhao, S. & Mihaylova, L.S.,
-        <a href="http://eprints.whiterose.ac.uk/135915/1/UKACC18_0133_FI.pdf">A Comparative Study of Velocity Obstacle
-          Approaches for Multi-Agent Systems</a>
-        2018 UKACC 12th International Conference on Control (CONTROL), Sheffield, 2018, pp. 289-294,
-        https://doi:10.1109/CONTROL.2018.8516848.
+      <ol class="article-card w3-card">
+        <div class="article-cell-a">
+          <a href="./files/papers/US2018.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
+        </div>
+        <div class="article-cell-b">
+          <a href="https://www.worldscientific.com/doi/abs/10.1142/S2301385019400065">
+            <b>Velocity Obstacle Approaches for Multi-Agent Collision Avoidance</b>
+          </a><br>
+          Douthwaite, J.A. and Zhao, S. & Mihaylova, L.S., Velocity Obstacle Approaches for Multi-Agent Collision Avoidance, 
+          Unmanned Systems, 7(01), 2019, pp. 55-64, https://doi.org/10.1142/S2301385019400065.
+        </div>
       </ol>
-      <ol class="w3-padding-16 w3-card article-card">
-        [2] Douthwaite, J.A., De Freitas, A. & Mihaylova, L.S.,
-        <a
-          href="http://eprints.whiterose.ac.uk/121512/1/SDF2017%20-%20An%20Interval%20Approach%20to%20Multiple%20UAV%20Collision%20Avoidance%20Final%20%26%20Certified.pdf">An
-          interval approach to multiple unmanned aerial vehicle collision avoidance</a>
-        2017 Sensor Data Fusion: Trends, Solutions, Applications (SDF), Bonn, 2017, pp. 1-8,
-        https://doi:10.1109/SDF.2017.8126384.
+
+      <ol class="news-card w3-card">
+        <div class="article-cell-a">
+          <a href="./files/papers/UKACC2018.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
+        </div>
+        <div class="article-cell-b">
+          <a href="https://ieeexplore.ieee.org/abstract/document/8516848">
+            <b>A Comparative Study of Velocity Obstacle Approaches for Multi-Agent Systems</b>
+          </a><br>
+          Douthwaite, J.A., Zhao, S. & Mihaylova, L.S., A Comparative Study of Velocity Obstacle Approaches for Multi-Agent Systems
+          2018 UKACC 12th International Conference on Control (CONTROL), Sheffield, 2018, pp. 289-294,
+          https://doi:10.1109/CONTROL.2018.8516848.
+        </div>
       </ol>
-      <ol class="w3-padding-16 w3-card article-card">
-        [1] Douthwaite, J.A., Mihaylova, L.S., & Veres, S. M.,
-        <a href="http://eprints.whiterose.ac.uk/99730/6/TAROS_16_submission.pdf">Enhancing Autonomy in VTOL Aircraft
-          Based on Symbolic Computation Algorithms</a>
-        Towards Autonomous Robotic Systems (TAROS-16), Sheffield, 2016, 19th ed., pp. 99–110. Springer International
-        Publishing. https://doi.org/10.1007/978-3-319-40379-3_10.
+
+      <ol class="news-card w3-card">
+        <div class="article-cell-a">
+          <a href="./files/papers/SDF2017.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
+        </div>
+        <div class="article-cell-b">
+          <a href="https://ieeexplore.ieee.org/abstract/document/8126384">
+            <b>An interval approach to multiple unmanned aerial vehicle collision avoidance</b>
+          </a><br>
+          Douthwaite, J.A., De Freitas, A. & Mihaylova, L.S., An interval approach to multiple unmanned aerial vehicle collision avoidance
+          2017 Sensor Data Fusion: Trends, Solutions, Applications (SDF), Bonn, 2017, pp. 1-8,
+          https://doi:10.1109/SDF.2017.8126384.
+        </div>
       </ol>
+
+      <ol class="news-card w3-card">
+        <div class="article-cell-a">
+          <a href="./files/papers/TAROS2016.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
+        </div>
+        <div class="article-cell-b">
+          <a href="https://link.springer.com/chapter/10.1007/978-3-319-40379-3_10">
+            <b>Enhancing Autonomy in VTOL Aircraft Based on Symbolic Computation Algorithms</b>
+          </a><br>
+          Douthwaite, J.A., Mihaylova, L.S., & Veres, S. M., Enhancing Autonomy in VTOL Aircraft Based on Symbolic Computation Algorithms
+          Towards Autonomous Robotic Systems (TAROS-16), Sheffield, 2016, 19th ed., pp. 99–110. Springer International
+          Publishing. https://doi.org/10.1007/978-3-319-40379-3_10.
+        </div>
+      </ol>
+
     </div>
   </div>
-
+ 
   <!-- About me -->
   <div class="w3-container w3-light-grey" style="padding:80px 20px" id="about">
     <div class="w3-container w3-center">
@@ -283,16 +304,23 @@
           and procedural modelling of unmanned aerial vehicles (UAVs). His interests include
           multi-agent systems, hybrid aerial systems, industry 4.0 technologies and automation.
         </p>
-        <div class="w3-center">
-          <div class="w3-half">
-            <p><a href="#publications" class="w3-button w3-black" style="border-radius: 15px;"><i
-                  class="fa fa-paper-plane"></i>View Publications</a></p>
-          </div>
-          <div class="w3-half">
-            <p><a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en" class="w3-button button-blue"
+        <div>
+        <table class="w3-container w3-center w3-bar-block w3-bar " style="padding-inline: 30px;">
+          <td>
+            <p><a href="#publications" class="w3-bar-item w3-button w3-black" style="border-radius: 15px;"><i
+                    class="fa fa-paper-plane"></i>View Publications</a></p>
+          </td>  
+          <td>
+            <p><a href="./files/2018-academic-cv-long.pdf" class="w3-bar-item w3-button w3-black"
+                  style="border-radius: 15px;"><i class="fa fa-book"></i>Latest CV</a></p>
+          </td>
+          <td>
+            <p><a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en" class="w3-bar-item w3-button button-blue"
                 style="border-radius: 15px;"><i class="fa fa-google"></i>Google Scholar</a></p>
-          </div>
+          </td>
+        </table>
         </div>
+
         <h3 style="padding-left:30px">Background</h3>
         <p>
           James recieved his Ph.D in collaborative robotics and multi-agent systems from the
@@ -483,7 +511,6 @@
   </script>
 
 </body>
-
 </html>
 
 <!--
