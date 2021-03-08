@@ -9,11 +9,11 @@ body, html {
 .banner-photo {
   background-position: center;
   background-size: cover;
-  background-image: url("../images/photo-james-SR.jpg");
+  background-image: url("../images/banner-james-SR-dull.jpg");
   min-height: 80%;
   min-width: 100%;
 }
-
+/*background-image: url("../images/photo-james-SR.jpg");*/
 .bg-portrait-photo {
   background-position: center;
   background-image: url("../images/photo-james-4x3.jpg");
