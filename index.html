@@ -55,9 +55,7 @@
       <a href="https://www.facebook.com/james.douthwaite1"><i class="fa w3-hover-opacity fa-facebook"></i></a>
       <a href="https://www.linkedin.com/in/jamesdouthwaite/"><i class="fa w3-hover-opacity fa-linkedin"></i></a>
       <a href="https://github.com/douthwja01/CSI-cobotics"><i class="fa w3-hover-opacity fa-github"></i></a>
-      <!--
-        <a href="https://scholar.google.co.uk/citations?user=DBBDzFcAAAAJ&hl=en"><i class="fab w3-hover-opacity fa-scholar fa-book"></i></a>
-      -->
+      <a href="https://orcid.org/0000-0002-7149-0372"><i class="fa w3-hover-opacity fa-book"></i></a>
       </div>
   </header>
 
@@ -223,19 +221,6 @@
     <h3 class="w3-center">NEWS</h3>
     <p class="w3-center w3-large">Recent events, conferences and updates.</p>
     <div class="news">
-
-      <ol class="news-card w3-card">
-        <div class="news-cell-a">
-          <b>Sheffield, UK, October 2021</b>
-        </div>
-        <div class="news-cell-b">
-          <b>Commendation: Recognised as "A Dedicated Outstanding Thesis Mentor"</b>
-          <p>
-            Following feedback from the thesis mentoring program 2021, I recieved special commendation for my dedication as a thesis mentor. The commendation was attributed to going above and beyond to help my PhD mentees develop into more confident researchers as they progress through their final stages of their PhD and begin writing their thesis.
-            You can visit the commendation page:<a href="https://www.sheffield.ac.uk/rs/ecr/mentoring/dotm">here</a>
-          </p>
-        </div>
-      </ol>
 
       <ol class="news-card w3-card">
         <div class="news-cell-a">
@@ -433,15 +418,27 @@
 
       <ol class="article-card w3-card">
         <div class="article-cell-a">
+          <a href="./files/papers/frontiers2021.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
+        </div>
+        <div class="article-cell-b">
+          <a href="https://www.frontiersin.org/articles/10.3389/frobt.2021.758099/full">
+            <b>A Modular Digital Twinning Framework for Safety Assurance of Collaborative Robotics</b>
+          </a><br>
+          <b>Douthwaite, J.A.</b>, Lesage B., Gleirscher, M. , Calinescu, R. , Aitken, J.M. , Alexander, R. , Law, J.,
+          2021, Frontiers in Robotics and AI, Frontiers Media SA
+        </div>
+      </ol>
+      
+      <ol class="article-card w3-card">
+        <div class="article-cell-a">
           <a href="./files/papers/JSS2021.pdf" download><img class="center" src="./images/pdf-icon.png" alt="download"><br>Download</a>
         </div>
         <div class="article-cell-b">
-          <a href="">
+          <a href="https://www.sciencedirect.com/science/article/pii/S0167642322000429">
             <b>Verified Synthesis of Optimal Safety Controllers for Human-Robot Collaboration</b>
           </a><br>
           Gleirsher, M., Calinescu, R., <b>Douthwaite, J.A.</b>, Lesage, B. Paterson, C., Aitken, J., Alexander, R., Law, J.
-          Verified Synthesis of Optimal Safety Controllers for Human-Robot Collaboration, 
-          Journal of Systems and Software
+          2021, Journal of Systems and Software
         </div>
       </ol>
 
@@ -503,8 +500,46 @@
 
     </div>
   </div>
-   
-  <!-- Contact Section -->
+
+
+  <!-- Awards -->
+  <div class="w3-container" style="padding:80px 20px" id="news">
+    <h3 class="w3-center">Awards</h3>
+    <p class="w3-center w3-large">Recent awards and funding updates.</p>
+    <div class="news">
+      
+      <ol class="news-card w3-card">
+        <div class="news-cell-a">
+          <b>Sheffield, UK, June 2022</b>
+        </div>
+        <div class="news-cell-b">
+          <b>Many-worlds: multi-instance deployment of digital twins and digital-twin based analyses. £5k, UoS RSE</b>
+          <p>
+            In 2022, our application to assess the feasiability of multi-instancing our digital twin framework on tier-two 
+            hardware was successful. The "Many-worlds" project seeks to examine how high-performance clusters can be utiltised
+            to enhance the capabilties of digital-twins here at Sheffield.
+          </p>
+        </div>
+      </ol>
+      
+      <ol class="news-card w3-card">
+        <div class="news-cell-a">
+          <b>Sheffield, UK, July 2022</b>
+        </div>
+        <div class="news-cell-b">
+          <b>Application accepted LongOps SBRI Challenge 1. £150k, UKAEA/RACE"</b>
+          <p>
+            In 2022, our application for challenge one of the LongOps funding bid was accepted. This project seeks to examine
+            the use of digital-twins in the processes of nuclear decommissioning as a collaboration between the Sheffield Robotics 
+            and the Advanced Manufacturing Research Centre (AMRC).
+          </p>
+        </div>
+      </ol>
+      
+    </div>
+  </div>
+  
+  <!-- Contact -->
   <div class="w3-container" style="padding:80px 20px" id="contact">
     <div class="w3-container w3-center">
       <h3 class="w3-row-padding">CONTACT ME</h3>
@@ -549,6 +584,7 @@
   </footer>
 
   <script>
+    
     // Modal Image Gallery
     function onClick(element) {
       document.getElementById("img01").src = element.src;
